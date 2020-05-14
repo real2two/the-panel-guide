@@ -3,13 +3,15 @@ You can change "port" to 80 so just "IP Address" connects to the website instead
 "port": 80
 ```
 --- ---
-You need to setup a callback link.
+You need to set the link of the panel. This does not give you an IP address nor domain but you need to put the current domain or ip address of the panel.
 ```
-"callbacklink": "(Domain URL Here)/callback",
+"link": "(Domain URL Here)",
 ```
 The "(Domain URL Here)" can either be the domain or ip address.
 
-After you set up the callback link, you need to set it up on Discord too.
+After you set up the link, you need to set it up on Discord too, except instead of the link, you need to add `/callback` at the end of the link.
+
+![5](https://raw.githubusercontent.com/real2two/the-panel-guide/master/images/discord/discord-5.png)
 
 --- ---
 You can skip the install scripts using:
