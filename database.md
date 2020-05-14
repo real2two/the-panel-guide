@@ -15,6 +15,12 @@ You should manually set database.json like this:
 }
 ```
 
+Replace `DISCORDUSERID` with your Discord user ID.
+
+Replace `PTERODACTYL USER ID` with your Pterodactyl user ID.
+
+Replace `EMAIL` with your email.
+
 After that, save it. 
 
 Then, turn on the panel again.
