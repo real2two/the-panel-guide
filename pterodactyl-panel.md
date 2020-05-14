@@ -1,7 +1,10 @@
+Part of settings.json:
 ```json
   "pterodactyllink": "Pterodactyl Panel URL",
   "pterodactylapi": "Pterodactyl Panel API Code",
 ```
+
+--- ---
 
 You change "pterodactyllink" to the Pterodactyl Panel URL. Example: `"pterodactyllink": "https://demo.pterodactyl.io/",`.
 
