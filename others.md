@@ -44,16 +44,17 @@ You can disable whitelist using:
 --- ---
 You can change the minimum and maximum ram, disk and cores a single server can have. Of course, this can be bypassed by creating a server with the Pterodactyl panel.
 ```json
-  "maxramperserver": null,
-  "maxdiskperserver": null,
-  "maxcoresperserver": null,
+  "maxramperserver": 100000,
+  "maxdiskperserver": 100000,
+  "maxcoresperserver": 100000,
   "minimumramperserver": 128,
   "minimumdiskperserver": 128,
   "minimumcoresperserver": 1,
 ```
-These 3 json variables below are not required but if you set them as null, a server can have up to the maximum ram, disk and cores a user has in their plan.
+These 3 json variables below are not required but if you set them as 100000, a server can have up to the maximum ram, disk and cores a user has in their plan.
+You cannot use null. Currently, a user can only have up to 100000MB ram, 100000MB disk, 100000 cores and 100000 servers (or the panel breaks).
 ```
-  "maxramperserver": null,
-  "maxdiskperserver": null,
-  "maxcoresperserver": null,
+  "maxramperserver": 100000,
+  "maxdiskperserver": 100000,
+  "maxcoresperserver": 100000,
 ```
