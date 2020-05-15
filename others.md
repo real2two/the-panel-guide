@@ -52,6 +52,7 @@ You can change the minimum and maximum ram, disk and cores a single server can h
   "minimumcoresperserver": 1,
 ```
 These 3 json variables below are not required but if you set them as 100000, a server can have up to the maximum ram, disk and cores a user has in their plan.
+
 You cannot use null. Currently, a user can only have up to 100000MB ram, 100000MB disk, 100000 cores and 100000 servers (or the panel breaks).
 ```
   "maxramperserver": 100000,
